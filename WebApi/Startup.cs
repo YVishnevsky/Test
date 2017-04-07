@@ -9,9 +9,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
-using WebApi.Repositories;
+using WebApiSample.Repositories;
 
-namespace WebApi
+namespace WebApiSample
 {
     public partial class Startup
     {

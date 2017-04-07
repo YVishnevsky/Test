@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
-using WebApi.Models;
-using WebApi.Repositories;
+using WebApiSample;
+using WebApiSample.Models;
+using WebApiSample.Repositories;
 
 namespace WebApi
 {
@@ -47,7 +48,7 @@ namespace WebApi
         /// <param name="pageNum">Page number</param>
         /// <param name="pageSize">Page size</param>
         /// <returns></returns>
-        [Route("")]
+        [Route(""), CorsAction]
         public IEnumerable<Product> GetPage(int pageNum, int pageSize)
         {
             return _repository.GetPage(pageNum, pageSize);

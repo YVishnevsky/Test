@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WebApi.Models;
+using WebApiSample.Models;
 
-namespace WebApi.Repositories
+namespace WebApiSample.Repositories
 {
     public class FakeRepository : IProductRepository
     {

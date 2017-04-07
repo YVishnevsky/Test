@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using WebApi.Models;
+using WebApiSample.Models;
 
-namespace WebApi.Repositories
+namespace WebApiSample.Repositories
 {
     public interface IProductRepository
     {

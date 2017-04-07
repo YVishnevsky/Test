@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebApi
+namespace WebApiSample
 {
     class Program
     {
@@ -20,7 +20,6 @@ namespace WebApi
                 
                 Console.ReadKey();
             }
-
         }
     }
 }
